@@ -1,6 +1,6 @@
 import React from "react";
 
-export const NavLink = ({ link, children }) => (
+const NavLink = ({ link, children }) => (
   <a
     href={link}
     style={{
@@ -13,3 +13,5 @@ export const NavLink = ({ link, children }) => (
     {children}
   </a>
 );
+
+export default NavLink;

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Navbar = ({ children }) => (
+const Navbar = ({ children }) => (
   <div
     style={{
       display: "flex",
@@ -13,3 +13,5 @@ export const Navbar = ({ children }) => (
     {children}
   </div>
 );
+
+export default Navbar;
