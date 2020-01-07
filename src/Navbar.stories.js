@@ -1,6 +1,9 @@
 import React from "react";
 
-import { Navbar, Logo, Nav, NavLink } from "./Navbar";
+import { Navbar } from "./Navbar";
+import { Logo } from "./Logo"
+import { Nav } from "./Nav"
+import { NavLink } from "./NavLink"
 
 export default {
   title: "Components|Navbar",
